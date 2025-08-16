@@ -1,0 +1,53 @@
+*{
+    font-family: Arial;
+    background-color: #222f3d;
+}
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo{
+    background-image:url(amazon_logo.png);
+    background-size: cover;
+    height: 80px;
+    width: 160px;
+}
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.create-account{
+height: 540px;
+width: 350px;
+border: 2px solid black;
+background-color: white;
+border-radius: 4px;
+}
+input{
+    width: 85%;
+    margin-left: 20px;
+    background-color: white;
+}
+button{
+    width: 85%;
+    background-color: rgb(255, 234, 0);
+    margin-left:20px ;
+}
+#by{
+    margin-left: 10px;
+    background-color: white;
+}
+.Buying{
+    margin-left: 10px;
+    background-color: white;
+    border-top: 1px solid black;
+    margin-right: 10px;
+}
+a{
+background-color: white;
+}
+.sign-in{
+    margin-left: 10px;
+}

@@ -1,0 +1,49 @@
+.logo{
+    background-image:url(amazon_logo.png);
+    background-size: cover;
+    height: 80px;
+    width: 160px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+body{
+    background-color: #222f3d;
+}
+
+/** box1**/
+.sign-in{
+    background-color: white;
+    height: 450px;
+    width: 350px;
+    border-radius: 7px;
+    margin-left: 600px;
+}
+.user{
+   margin-left: 70px;
+   font-family: arial;
+   font-weight: 100;
+}
+h2{
+    margin-left: 15px;
+    font-weight: 50;
+    font-family: arial;
+    
+}
+.conti{
+    background-color: rgb(255, 208, 0);
+    text-align: center;
+    width: 110px;
+    font-family: arial; 
+    margin-left: 100px;
+}
+#create{
+    text-align: center;
+    margin-left: 70px;
+}
+#para{
+    margin-left: 20px;
+}
+.home{
+    margin-left: 120px;
+    text-decoration: none;
+}
