@@ -1,0 +1,61 @@
+.logo{
+    background-image:url(Life-Fitness.png);
+    background-size: cover;
+    height: 80px;
+    width: 300px;
+    margin-left: 630px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+body{
+    background-color: #222f3d;
+}
+
+/** box1**/
+.sign-in{
+    background-color:#1E1E1E;
+    height: 500px;
+    width: 550px;
+    border-radius: 7px;
+    margin-left: 500px;
+    color: white;
+    display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Vertical Centering */
+  align-items: center; /* Horizontal Centering */
+  height: 100%; /* Ensure it takes full height */
+  text-align: center; /* Center the text inside the elements */
+   
+    
+}
+.user{
+  
+   font-family: arial;
+   font-weight: 100;
+}
+h2{
+   
+    font-weight: 50;
+    font-family: arial;
+    
+}
+.conti{
+    background-color: #FF3B30;
+  
+    text-align: center;
+  height: 40px;
+    width: 110px;
+    font-family: arial; 
+    font-size: 16px; 
+    padding: 5px;
+    
+}
+#create{
+    text-align: center;
+   
+}
+
+.home{
+   
+    text-decoration: none;
+}

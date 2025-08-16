@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    font-family: arial;
+}
+
+/* nav bar */
+.nav-bar{
+    height: 80px;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  
+}
+
+.nav-logo{
+    height: 80px;
+    width: 250px;
+    margin-right: 500px;
+    margin-bottom: 10px;
+}
+.logo{
+    background-image:url(Life-Fitness.png);
+    background-size: cover;
+    height: 80px;
+    width: 100%;
+    /* margin-left:-10px;
+    margin-top: 30px; */
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box1 */
+
+.logo-english{
+    background-color: transparent;
+    color: white;
+    border: transparent;
+} 
+
+/* box2 */
+
+.Log-in-button{
+    font-size: 2rem;
+    border: 50%;
+}
+
+/* box3 */
+.add-icon5{
+    border: 20%;
+}
+
+.panel{
+    background-image:url(panel.jpeg);
+    background-size: cover; /* Fit image to screen */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* center-logo */
+
+.center-logo{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.c-logo{
+    background-image:url(Life-Fitness.png);
+    background-size: cover;
+    height: 100px;
+    width: 600px; 
+    padding: 50px;
+}
+
+/* register */
+
+.register{
+    background-color:#FFD700 ;
+  border-radius: 45%;
+    text-align: center;
+  height: 40px;
+    width: 110px;
+    font-family: arial; 
+    font-size: 16px; 
+    padding: 5px;
+    position: absolute;
+    top: 70%;
+}
+.login{
+    background-color:green ;
+    border-radius: 45%;
+      text-align: center;
+    height: 40px;
+      width: 110px;
+      font-family: arial; 
+      font-size: 16px; 
+      padding: 5px;
+      position: absolute;
+      top: 80%;
+
+}
+
+/* chat */
+section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #e63946;
+  }
+  
+  p, li {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #e63946;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    border-radius: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input, textarea, button {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #c72c3d;
+  }
+  
+  #services li:hover {
+    background-color: #c72c3d;
+  }
+  
+  #testimonials p {
+    font-style: italic;
+    color: #555;
+  }
+  
